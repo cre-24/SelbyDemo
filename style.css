@@ -1,14 +1,11 @@
 :root {
 	--primary-color: #355e3b;
 	--secondary-color: #7b3f00;
-	--bg-color: #dfd8cd;
+	--bg-color: #e3e2dd;
 	--text: #333333;
 	--link: #dfd8cd;
 	--highlight: #305030;
 }
-
-
-
 
 /* -------- GLOBAL -------- */
 
@@ -59,7 +56,7 @@ header a {
 	color: var(--link);
 }
 
-nav {
+.navbar {
 	display: flex;
 	flex-direction: row;
 	font-size: 1.3em;
@@ -67,7 +64,7 @@ nav {
 	align-items: stretch;
 }
 
-nav ul {
+.navbar ul {
 	display: flex;
 	list-style: none;
 	align-items: stretch;
@@ -76,20 +73,20 @@ nav ul {
 	gap: 1em;
 }
 
-nav ul li {
+.navbar ul li {
 	align-items: center;
 	overflow: hidden;
 
 }
 
-nav ul li a {
+.navbar ul li a {
 	display: block;
 	height: 100%;
 	padding: 1em 1em;
 	text-shadow: 2px 2px 2px rgba(0,0,0,0.4);
 }
 
-nav ul li a:hover {
+.navbar ul li a:hover {
 	background-color: var(--highlight);
 
 }
