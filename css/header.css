@@ -10,3 +10,9 @@ header a {
 	text-decoration: none;
 	color: var(--link-header);
 }
+
+header .logo {
+	font-size: var(--font-size-xl);
+	font-style: italic;
+	font-family: var(--font-family-heading);
+}
