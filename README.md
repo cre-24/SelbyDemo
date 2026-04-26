@@ -21,6 +21,8 @@ git clone https://github.com/cre-24/SelbyDemo.git
 cd SelbyDemo
 ```
 
+Site files are organized with `index.html` at the root, shared styles in `css/`, scripts in `js/`, images and icons in `assets/`, and secondary pages in `pages/`.
+
 ## Contact
 
 For more information about Selby Inc., please reach out through the contact form on the demo site.

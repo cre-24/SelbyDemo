@@ -1,0 +1,12 @@
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: var(--primary-color);
+	padding-inline: var(--spacing-md);
+}
+
+header a {
+	text-decoration: none;
+	color: var(--link-header);
+}
