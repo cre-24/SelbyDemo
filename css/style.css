@@ -63,6 +63,8 @@ body {
 	line-height: var(--line-height-base);
 }
 
+h1, h2, h3 {text-align: center;}
+
 img,
 picture,
 svg,
